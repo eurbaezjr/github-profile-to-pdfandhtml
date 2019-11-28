@@ -18,3 +18,6 @@ The PDF will populate with the following:
 #11 Number of users following
 
 Refer to the design mockup.
+
+![App Demo](https://dev.to/kelli/demo-your-app-in-your-github-readme-with-an-animated-gif-2o3c)
+
