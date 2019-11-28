@@ -19,5 +19,5 @@ The PDF will populate with the following:
 
 Refer to the design mockup.
 
-![App Demo](https://dev.to/kelli/demo-your-app-in-your-github-readme-with-an-animated-gif-2o3c)
+![App Demo](/HomeWorkSample.gif)
 
