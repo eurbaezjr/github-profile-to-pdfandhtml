@@ -1,0 +1,29 @@
+{
+  "name": "unit9_hw",
+  "version": "1.0.0",
+  "description": "In this activity you will build a command line tool that generates and HTML portfolio page from user input.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^7.1.2",
+    "electron-html-to": "^2.6.0",
+    "html-pdf": "^2.2.0",
+    "html-to-pdf": "^0.1.11",
+    "inquirer": "^6.3.1",
+    "pdf": "^0.1.0",
+    "phantomjs-prebuilt": "^2.1.16"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eurbaezjr/unit9_hw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eurbaezjr/unit9_hw/issues"
+  },
+  "homepage": "https://github.com/eurbaezjr/unit9_hw#readme"
+}
