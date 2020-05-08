@@ -1,23 +1,34 @@
-# Unit 09 Node.js and ES6+ Homework: Developer Profile Generator
-Created a command-line application that dynamically generates a PDF profile from a GitHub username. 
-The application is invoked with the following command: node index.js
-The user will be prompted for a favorite color, which will be used as the background color for cards.
-The PDF will populate with the following:
+# Developer Github Profile to PDF & HTML Generator
 
-#1 Profile image
-#2 User name
-#3 Links to the following:
+![Example 1](./profile-generator-demo.gif) 
 
-#4 User location via Google Maps
-#5 User GitHub profile
-#6 User blog
-#7 User bio
-#8 Number of public repositories
-#9 Number of followers
-#10 Number of GitHub stars
-#11 Number of users following
+A backend Node.js command line application that programmatically generates a PDF and HTML file by connecting to Github's API and retrieving a developer's information. 
 
-Refer to the design mockup.
+## Functionality & User Input
 
-![App Demo](/HomeWorkSample.gif)
+The user will be prompted for their github profile name and favorite color, which will then be used to format the document. 
 
+The PDF document will populate with the following Github fields. 
+
+* Profile image
+* User name
+* User location via Google Maps
+* User GitHub profile
+* User blog
+* User bio
+* Number of public repositories
+* Number of followers
+* Number of GitHub stars
+* Number of users following
+
+## Installing Instructions
+
+* In the root of the folder, there is a `package.json`, so make sure to `npm install`.
+
+* The dependencies include, [Node.js](https://nodejs.org/en/), [fs](https://nodejs.dev/the-nodejs-fs-module), [axios] (https://www.npmjs.com/package/axios), [inquirer] (https://www.npmjs.com/package/inquirer), [html-pdf] (https://www.npmjs.com/package/html-pdf)
+
+* The application is invoked with the following command: `node index.js`.
+
+### Roster output
+
+The application will return a PDF file called profile.pdf to the root folder of your repository

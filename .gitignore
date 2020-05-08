@@ -1,0 +1,6 @@
+.DS_Store
+node_modules
+.env
+package-lock.json
+index.html
+profile.pdf
