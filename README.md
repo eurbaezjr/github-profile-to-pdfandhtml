@@ -1,4 +1,4 @@
-# Developer Github Profile to PDF & HTML Generator
+# Github Profile to PDF & HTML Generator
 
 ![Example 1](./profile-generator-demo.gif) 
 
