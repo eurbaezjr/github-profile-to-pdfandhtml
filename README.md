@@ -25,7 +25,7 @@ The PDF document will populate with the following Github fields.
 
 * In the root of the folder, there is a `package.json`, so make sure to `npm install`.
 
-* The dependencies include, [Node.js](https://nodejs.org/en/), [fs](https://nodejs.dev/the-nodejs-fs-module), [axios] (https://www.npmjs.com/package/axios), [inquirer] (https://www.npmjs.com/package/inquirer), [html-pdf] (https://www.npmjs.com/package/html-pdf)
+* The dependencies include, [Node.js](https://nodejs.org/en/), [fs](https://nodejs.dev/the-nodejs-fs-module), [axios](https://www.npmjs.com/package/axios), [inquirer](https://www.npmjs.com/package/inquirer), [html-pdf](https://www.npmjs.com/package/html-pdf)
 
 * The application is invoked with the following command: `node index.js`.
 

@@ -1,30 +1,33 @@
 {
-  "name": "unit9_hw",
+  "name": "github-profile-to-pdfandhtml",
   "version": "1.0.0",
-  "description": "In this activity you will build a command line tool that generates and HTML portfolio page from user input.",
+  "description": "A backend Node.js command line application that programmatically generates a PDF and HTML file by connecting to Github's API and retrieving a developer's information. Dependencies include fs, axios, inquirer, and html-pdf package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "axios": "^0.19.2",
-    "electron": "^7.1.2",
-    "electron-html-to": "^2.6.0",
-    "html-pdf": "^2.2.0",
-    "html-to-pdf": "^0.1.11",
-    "inquirer": "^6.3.1",
-    "pdf": "^0.1.0",
-    "phantomjs-prebuilt": "^2.1.16"
-  },
-  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eurbaezjr/unit9_hw.git"
+    "url": "git+https://github.com/eurbaezjr/github-profile-to-pdfandhtml.git"
   },
+  "keywords": [
+    "github",
+    "profile",
+    "to",
+    "pdf",
+    "and",
+    "html"
+  ],
+  "author": "Eduardo Urbaez",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eurbaezjr/unit9_hw/issues"
+    "url": "https://github.com/eurbaezjr/github-profile-to-pdfandhtml/issues"
   },
-  "homepage": "https://github.com/eurbaezjr/unit9_hw#readme"
+  "homepage": "https://github.com/eurbaezjr/github-profile-to-pdfandhtml#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fs": "0.0.1-security",
+    "html-pdf": "^2.2.0",
+    "inquirer": "^7.1.0"
+  }
 }
