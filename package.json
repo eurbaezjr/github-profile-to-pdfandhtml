@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/eurbaezjr/github-profile-to-pdfandhtml#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "fs": "0.0.1-security",
     "html-pdf": "^2.2.0",
     "inquirer": "^7.1.0"
